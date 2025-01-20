@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Mukta:wght@200;300;400;500;600;700;800&family=Rubik+Vinyl&display=swap');
+
+body {
+    background: url(/Images/card_back/vecteezy_playing-chips-and-poker-cards-on-dark-background-poker-game_11144428.jpg);
+}
+
+h1{
+    text-align: center;
+    font-family: "Rubik Vinyl", serif;
+    font-size: 80px;
+    color: white;
+}
+
+#message-el {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: white;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+ 
+p {
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+    font-size: 35px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.start {
+    font-family: 'Jersey 15', sans-serif;
+    font-size: 30px;
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 2s;
+}
+
+.new {
+    font-family: 'Jersey 15', sans-serif;
+    font-size: 30px;
+    padding: 10px 31px;
+    background-color: #4CAF50;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    transition: background-color 2s;
+}
+
+.start:hover,
+.new:hover {
+    background-color:rgb(154, 154, 209);
+}
+
+.restart {
+    font-family: 'Jersey 15', sans-serif;
+    font-size: 30px;
+    padding: 10px 31px;
+    background-color: #4CAF50;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    transition: background-color 2s;
+}
+
